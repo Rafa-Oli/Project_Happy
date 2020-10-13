@@ -30,8 +30,12 @@ aside footer p{
 }
 
 /* button */
-a.create-orphanage{
+a.create-orphanages{
     position: absolute;
+
+    right: 4rem;
+    bottom: 4rem;
+    
 
     width: 6.4rem;
     height: 6.4rem;
@@ -43,4 +47,10 @@ a.create-orphanage{
     justify-content:center;
     align-items: center;
 
+    transition: background-color 200ms;
+
+}
+
+a.create-orphanages:hover{
+    background: #17D6EB;
 }
