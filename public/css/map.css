@@ -1,7 +1,7 @@
 .map-container{
     margin-top: 6.4rem;
     background: #e6f7fb;
-    border: 1px solid #b3dae2;
+    border: 1px solid #DDE3F0;
     border-radius: 2rem;
 }
 
@@ -16,6 +16,7 @@
 }
 
 .map-container footer a{
+  font-weight: 700;
   color: #0089a5;
   text-decoration: none;
 }
