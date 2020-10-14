@@ -24,4 +24,24 @@ const icon = L.icon({
 L.marker([-7.2290248,-35.902706], {icon})
     .addTo(map)
  
+    /* image gallery*/
+    function selectImage(event){
+       const buttom= event.currentTarget
+     //remover todas as classes .active
+     const buttons= document.querySelectorAll(".images button")
+     buttons.forEach(removeActiveClass)
+
+     function removeActiveClass(button){
+      button.classList.remove("active")
+  }
+     
+     //selecionar a image clicada
+  
+
+     //atualiza o container de image
+
+
+     //adicionar a classe .active para este botao
+       button.classList.add('active')
+    }
    

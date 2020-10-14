@@ -2,6 +2,8 @@
     display: flex;
     min-height: 100vh;
 }
+
+
 aside.sidebar{
     position: fixed;
     height: 100%;
@@ -35,6 +37,10 @@ aside.sidebar footer button:hover{
 
 .with-sidebar{
     padding-left: 110px;
+}
+
+main{
+    flex: 1;
 }
 
 /* details*/
