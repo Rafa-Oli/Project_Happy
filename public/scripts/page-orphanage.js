@@ -36,7 +36,7 @@ L.marker([-7.2290248,-35.902706], {icon})
   }
      
      //selecionar a image clicada
-  
+     const image = button.children[0]
 
      //atualiza o container de image
 
