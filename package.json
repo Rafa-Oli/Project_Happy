@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Rafa-Oli/Happy_app-JS#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.1.1"
+    "hbs": "^4.1.1",
+    "sqlite-async": "^1.1.0"
   }
 }
