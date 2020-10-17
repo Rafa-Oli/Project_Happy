@@ -36,7 +36,7 @@
 
     <main class="animate-appear with-sidebar">
       <div class="orphanage-details">
-        <img src="{{orphanage.firstImages}}" alt="{{orphanage.name}}" />
+        <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
 
         <div class="images">
           {{#each orphanage.images}}
@@ -47,7 +47,9 @@
         </div>
         <div class="orphanage-details-content">
           <h1>{{orphanage.name}} </h1>
+         
           <p>{{orphanage.about}}</p>
+         
           <div class="map-container">
             <div id="mapid"></div>
             <span data-lat="{{orphanage.lat}}" data-lng="{{orphanage.lng}}"></span>
