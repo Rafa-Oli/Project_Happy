@@ -77,11 +77,16 @@
 
             <div class="input-block images">
               <label for="images">Foto</label>
-              <div class="images-uplad" id="images">
+              <div class="images-upload" id="images">
 
-                <div class="new-upload" id="images">
+                <div class="new-upload">
 
-                <input name="images" placeholder="Cole o link da foto aqui" required/>
+                <input 
+                name="images" 
+                placeholder="Cole o link da foto aqui" 
+                required
+                type="url"
+                />
                 <span onclick="deleteField(event)"><img src="/images/remove-file.svg" alt="Remover foto"></span>
               </div>
 
