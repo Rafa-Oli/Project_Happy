@@ -5,6 +5,11 @@ const options ={
     scrollWheelZoom: false,
     zoomControl: false
 }
+//get values from html 
+const spanLat = document.querySelector('span[data-lat]')
+const spanLng= document.querySlector('span[data-lng]')
+
+
 
 //create map
 const map = L.map('mapid', options).setView([-7.2290248,-35.902706], 15);
@@ -21,7 +26,8 @@ const icon = L.icon({
 })
 
 //create and add marker
-L.marker([-7.2290248,-35.902706], {icon})
+
+L.marker([spanLat.dataset.lat,spanLng.dataset.lng], {icon})
     .addTo(map)
  
     /* image gallery*/
